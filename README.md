@@ -5,8 +5,7 @@ A Flutter application for managing companies and their services. This frontend i
 ## 📋 Key Technical Choices
 
 * **`http` Package**: Used for making direct API calls to the backend, which is a simple and effective approach for this project's scope.
-* **Provider**: We've used the `provider` package for state management. This simplifies sharing the API client and data models across different screens, making the app's state predictable and easy to manage.
-
+* **Provider**: We choose Provider over BLoC for this task because it is simpler to implement and requires less boilerplate code, making it the ideal choice for a small-scale app where complex state event transformations are unnecessary.
 ---
 
 ## ⚙️ Setup and Installation
